@@ -3,7 +3,7 @@ import './Button.css';
 
 function Button(props) {
 
-const { variant = 'primary', children, ...rest } = props
+    const { variant = 'primary', children, ...rest } = props
 
     return (
         <div>
